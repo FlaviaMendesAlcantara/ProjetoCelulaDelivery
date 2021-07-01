@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    }
+    .col-1{
+        width: 100%;
+        float: left;
+        padding: 15px;
+    }
+    .linha::after{
+        content: "";
+        clear: both;
+        display: table;
+    }
+    
+    @media only screen and (max-width: 650px){
+    .menu{width: 970px;
+    height: 10px;
+    margin: 5px auto;
+    position: relative;
+    max-width:500px;
+    max-height:812px;    
+    }
+    .menu ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;        
+        overflow: hidden;
+        background-color: #812F33;
+        }
+    .menu li{
+        float: left;
+        /*transition: background-color 1s;*/
+        }
+    .menu li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 2px 0;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-decoration: none;   
+    margin: 5px 5px 0 0;
+    width: 100px;     
+    }
+    
+    li a:hover{
+        opacity: 1;
+        background-color: #732C02;
+        text-shadow: 1px 1px 1px #132640;
+        }
+
+    .logo{
+    width: 6px;
+    height: 4px;
+    background-size: 6px 4px;  
+    position: relative;
+    right: 5px;
+    }
+    }
+    @media only screen and (min-width: 651px) {
+    .menu{
+    width: 98%;
+    height: 98%;
+    margin: 10px auto;
+    position: relative;
+    }
+    .menu h1{
+        display: none;
+    }
+    
+    .menu ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;        
+        overflow: hidden;
+        background-image:linear-gradient(to right,#F2E5D5,#b61938,#812F33);
+        
+        }
+        .menu li{
+            float: left;
+            }
+    .menu li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px 0;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-decoration: none;   
+    margin: 10px 10px 0 0;
+    width: 150px;   
+    }
+    li a:hover{
+    opacity: 1;
+    background-color: #732C02;
+    text-shadow: 1px 1px 1px #132640;
+    }
+    .logo{
+    width: 166px;
+    height: 64px;
+    background-size: 166px 64px;  
+    position: absolute;
+    right: 335px;
+    }
+    }

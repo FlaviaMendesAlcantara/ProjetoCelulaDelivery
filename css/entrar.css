@@ -1,0 +1,20 @@
+
+
+.conteudo p{
+    font-family: cursive;
+    text-align: center;    
+}
+.formulario{
+    color: brown;
+    width: 400px;   
+    border: 1px solid brown;    
+    margin-top: 50px;
+    margin-left: 550px;
+    margin-right: 45px;
+    margin-bottom: 150px;
+    padding: 10px;   
+}
+.formulario input{
+    width: 365px;
+}
+

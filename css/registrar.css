@@ -1,0 +1,30 @@
+.carregando{
+    color: #ff0000;
+    display: none;
+}
+
+.button{
+    text-align: right; 
+    margin-left: 450px;
+    margin-right: 450px;
+}
+.conteudo p{
+    font-family: cursive; 
+}
+.formulario{
+    color: brown;
+    width: 500px; 
+    height: 900px;
+    border: 1px solid brown;    
+    margin-top: 0px;
+    margin-bottom: 10px;
+    margin-left: 450px;
+    margin-right: 450px;
+    padding: 10px; 
+  
+}
+
+.formulario input{
+    width: 345px;
+}
+

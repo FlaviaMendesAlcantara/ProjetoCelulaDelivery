@@ -1,0 +1,34 @@
+
+.cabecalho h1{
+    color: crimson;
+    font-family: cursive;
+    font-size: 24px;
+}
+.conteudo p{
+    font-family: cursive;
+    text-align: center;    
+}
+.formulario{
+    color: brown;
+    width: 450px; 
+    height: 230px;
+    border: 2px solid brown;    
+    margin-top: 150px;
+    margin-bottom: 220px;
+    margin-left: 450px;
+    margin-right: 500px;
+    padding: 10px;      
+}
+.formulario input{
+    width: 365px;
+}
+.formulario th{
+    font-size: 18px;
+    border: 1px;
+    color: black;
+    font-display: fallback;
+}
+.formulario caption{
+    font-size: 20px;
+}
+

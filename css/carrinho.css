@@ -1,0 +1,11 @@
+
+    .container{
+        flex: 1 0 auto;
+    }
+    #cabecalho h1{
+        color: crimson;
+        font-family: cursive;
+        font-size: 45px;
+        margin-bottom: 15px;
+        text-align: center;   
+    }

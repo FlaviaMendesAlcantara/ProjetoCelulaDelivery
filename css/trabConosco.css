@@ -1,0 +1,35 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+
+html,body{
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    bottom: 0px;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+.conteudo{
+    flex: 1 0 auto;    
+}
+
+
+.formulario{
+    color: brown;
+    width: 420px;  
+    border: 1px solid brown; 
+    margin-top: 50px;
+    margin-left: 550px;
+    margin-right: 500px;   
+    padding: 20px;
+    
+}
+.formulario input{
+    width: 365px;    
+}

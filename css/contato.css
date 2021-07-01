@@ -1,0 +1,20 @@
+.cabecalho h1{
+    color: crimson;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.conteudo p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;     
+}
+.formulario{
+    color: brown;
+    width: 400px;  
+    border: 1px solid brown; 
+    margin-top: -10px;
+    margin-left: 500px;
+    margin-right: 500px;   
+    padding: 20px;
+    
+}
+.formulario input{
+    width: 365px;    
+}

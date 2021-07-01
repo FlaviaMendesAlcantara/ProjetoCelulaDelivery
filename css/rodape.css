@@ -1,0 +1,16 @@
+*{
+    box-sizing: border-box;
+}
+.rodape p{    
+    margin: 10px auto;
+    position: relative;
+    bottom: 2px;
+    width:98%;
+    left: 2px;
+    right: 2px;
+    background-image:linear-gradient(to right,#F2E5D5,#b61938,#812F33);
+    font-style: italic;
+    color: #132640;
+    flex-shrink: 0;
+    text-align: center;
+}
